@@ -80,7 +80,7 @@ def on_closing():
     if messagebox.askokcancel("Quit", "Do you want to quit?"):
         app.destroy()   
 
-## frontend
+## frontend  -  graphics
 
 app = Tk()
 app.title("CSV to XLSX Converter")
