@@ -1,7 +1,7 @@
 ## My first Babysteps in Python. 
-## I learned to write this code with partially use of ChatGPT 3.5.
 ## This little tool converts a csv file to a xlsx file
 ## The tables are specified to an explicit file for my music school
+## I learned to write this code with partially use of ChatGPT 3.5.
 ## You have to alter the table names in line 28 if you want to customize it for your purpose
 
 ### Importing the necessary modules
