@@ -24,7 +24,7 @@ def convert_csv_to_xlsx(input_file, output_file):
         df = pd.read_csv(input_file)
         messagebox.showinfo("Info", f"Successfully read the CSV file: {input_file}")
 
-        # Ensure the column has the right order and names
+        # Ensure the columns have the right order and names
         expected_columns = ["Lehrer Vorname", "Lehrer Nachname", "Sch. Nachname", "Sch. Vorname", "Stück Name", "Stück Komponist", "Stück Länge"]
         if len(df.columns) != len(expected_columns):
             messagebox.showerror("Error", f"The input file does not have the expected number of columns ({len(expected_columns)}).")
